@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#ba275e</color>
+  <color name="colorPrimaryDark">#8E0438</color>
+  <color name="colorAccent">#8E0438</color>
+
+  <color name="dark">#8E0438</color>
+  <color name="light">#ba275e</color>
+
+  <color name="colorBackground">#EEEEEE</color>
+
+  <color name="button_green">#019865</color>
+  <color name="theme_grey">#424243</color>
+
+  <color name="application_light_grey">#737373</color>
+  <color name="application_dark_grey">#464646</color>
+
+  <color name="application_black">#222222</color>
+
+  <color name="black">#000000</color>
+  <color name="white">#ffffff</color>
+  <color name="card_home_green">#1A9A69</color>
+  <color name="card_home_orange">#E17A1E</color>
+  <color name="card_home_blue">#3158A3</color>
+
+  <color name="record_activity">#26444B</color>
+  <color name="theme_color_cards">#F7EFE4</color>
+  <color name="theme_text_heading">#424243</color>
+
+  <color name="toolbar_background_color">#FAFAFA</color>
+
+  <color name="divider">#acacac</color>
+  <color name="divider_light">@color/md_grey_300</color>
+
+  <color name="theme_web_link">#259ade</color>
+  <color name="charcoal_grey">#404041</color>
+
+  <color name="call_now_listing_enable">#57b4ad</color>
+  <color name="call_now_listing_disable">@color/md_grey_400</color>
+
+  <!-- Text Colors -->
+  <color name="text_active_green">@color/md_green_600</color>
+  <color name="text_color_grey">#6f6c6c</color>
+  <color name="text_info_yellow">@color/md_yellow_600</color>
+  <color name="text_alert_red">@color/md_red_600</color>
+  <color name="text_heading_color_black">#373537</color>
+  <color name="text_green_color">#6ca51f</color>
+  <color name="text_theme_blue">#2196df</color>
+  <color name="theme_red_color">#ec463f</color>
+  <color name="textcolor">#74B8E4</color>
+  <color name="green_text">#7AA635</color>
+
+  <color name="nav_sep">@color/md_grey_100</color>
+
+  <color name="text_primary_color">#6d6d6d</color>
+  <color name="list_selection">#FDF9F9</color>
+
+  <color name="theme_pink">#ED2A7B</color>
+  <color name="theme_green">#00a79d</color>
+
+</resources>

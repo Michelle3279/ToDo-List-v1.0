@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="@dimen/activity_vertical_margin"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      tools:context="motobeans.com.todolistexample.ui.TaskActivity"
+      tools:showIn="@layout/activity_task"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+      <android.support.design.widget.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+        <EditText
+            android:id="@+id/etTaskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            />
+
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+        <EditText
+            android:id="@+id/etTaskDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="Task Description.."
+            android:minHeight="@dimen/_100sdp"
+            />
+
+      </android.support.design.widget.TextInputLayout>
+
+      <RadioGroup
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/activity_vertical_margin"
+          android:orientation="horizontal"
+          >
+
+        <RadioButton
+            android:id="@+id/rbActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Active"
+            android:textColor="@color/md_green_800"
+            android:textSize="20dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbDeActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="De-Activated"
+            android:textColor="@color/md_red_800"
+            android:textSize="20dp"
+            />
+      </RadioGroup>
+
+      <Button
+          android:id="@+id/buttonAddUpdatetask"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/activity_vertical_margin"
+          android:background="@color/colorAccent"
+          android:text="Add / Update"
+          android:textColor="@android:color/white"
+          />
+
+    </LinearLayout>
+  </android.support.constraint.ConstraintLayout>
+</layout>
